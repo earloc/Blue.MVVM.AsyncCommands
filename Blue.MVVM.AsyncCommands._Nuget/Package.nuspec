@@ -2,16 +2,17 @@
 <package >
   <metadata>
     <id>Blue.MVVM.AsyncCommands</id>
-    <version>0.0.2-pre1</version>
+    <version>0.3.0-pre01</version>
     <title>Blue.MVVM.AsyncCommands</title>
     <authors>earloc</authors>
     <owners></owners>
     <description>
-      MVVM&lt;BareknuckleStyle&gt; - async ICommand extensions
+      MVVM&lt;BareKnuckleStyle&gt; - async ICommand extensions
     </description>
     <releaseNotes>
-      0.0.2 - added dependency to Blue.MVVM.Commands
-      0.0.1 - initial release
+      0.3.0 - IAsyncNotificationCommand´s are now public
+      0.2.0 - added dependency to Blue.MVVM.Commands
+      0.1.0 - initial release
     </releaseNotes>
     <summary>
       Execute commands in an async aware manner
@@ -26,7 +27,7 @@
     <tags>Blue MVVM Command RelayCommand ICommand async IAsyncCommand</tags>
 
     <dependencies>
-      <dependency id="Blue.MVVM.Commands"    version="2.0.1-pre3" />
+      <dependency id="Blue.MVVM.Commands"    version="2.1.0-pre3" />
     </dependencies>
     
   </metadata>

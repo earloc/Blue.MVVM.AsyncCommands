@@ -3,6 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Blue.MVVM.Commands {
-    interface IAsyncNotificationCommand<T> : IAsyncCommand<T>, INotificationCommand<T> {
+    public interface IAsyncNotificationCommand<T> : IAsyncCommand<T>, INotificationCommand<T> {
     }
 }
