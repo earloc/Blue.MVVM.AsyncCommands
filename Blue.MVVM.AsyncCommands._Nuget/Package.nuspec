@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.AsyncCommands</id>
-    <version>0.3.0-pre01</version>
+    <version>0.4.0-pre03</version>
     <title>Blue.MVVM.AsyncCommands</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -10,6 +10,7 @@
       MVVM&lt;BareKnuckleStyle&gt; - async ICommand extensions
     </description>
     <releaseNotes>
+      0.4.0 - added async aware eventhandlers for executing and exectuted
       0.3.0 - IAsyncNotificationCommand´s are now public
       0.2.0 - added dependency to Blue.MVVM.Commands
       0.1.0 - initial release

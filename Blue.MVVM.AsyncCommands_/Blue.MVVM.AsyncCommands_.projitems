@@ -13,6 +13,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)AsyncCommandBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AsyncCommandBase_T.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AsyncCommand_T.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AsyncEventArgs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IAsyncCommand_T.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IAsyncCommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IAsyncNotificationCommand_T.cs" />
