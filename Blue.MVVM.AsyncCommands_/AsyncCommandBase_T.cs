@@ -7,7 +7,7 @@ namespace Blue.MVVM.Commands {
     public abstract class AsyncCommandBase<T> : CommandBase<T>, IAsyncNotificationCommand<T> {
 
         public async override void Execute(T parameter) {
-            await ExecuteAsync(parameter);
+            await ExecuteAsyncCore(parameter);
         }
 
         public async Task ExecuteAsyncCore(T parameter) {
