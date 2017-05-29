@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.AsyncCommands</id>
-    <version>0.4.0-pre04</version>
+    <version>3.0.0</version>
     <title>Blue.MVVM.AsyncCommands</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -10,6 +10,7 @@
       MVVM&lt;BareKnuckleStyle&gt; - async ICommand extensions
     </description>
     <releaseNotes>
+      3.0.0 - added support for netstandard1.0, version alignment
       0.4.0 - added async aware eventhandlers for executing and exectuted
       0.3.0 - IAsyncNotificationCommand´s are now public
       0.2.0 - added dependency to Blue.MVVM.Commands
@@ -22,13 +23,13 @@
     <projectUrl>https://github.com/earloc/Blue.MVVM.Commands</projectUrl>
     <iconUrl>http://oi60.tinypic.com/wl6c7a.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright nobody in particular 2014 - 2016</copyright>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <copyright>Copyright nobody in particular 2014 - 2017</copyright>
     <references></references>
     <tags>Blue MVVM Command RelayCommand ICommand async IAsyncCommand</tags>
 
     <dependencies>
-      <dependency id="Blue.MVVM.Commands"    version="2.1.0-pre3" />
+      <dependency id="Blue.MVVM.Commands"    version="3.0.0" />
     </dependencies>
     
   </metadata>
@@ -42,10 +43,13 @@
     <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
           target="lib/net45" />
 
-    <file src="bin\lib\portable45\Blue.MVVM.Commands.*"
+    <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
           target="lib/net46" />
 
     <file src="bin\lib\portable40\Blue.MVVM.AsyncCommands.*"
           target="lib/portable-net40+sl5" />
+
+    <file src="bin\lib\netstandard10\Blue.MVVM.AsyncCommands.*"
+          target="lib/netstandard1.0" />
   </files>
 </package>
