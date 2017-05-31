@@ -10,7 +10,7 @@
       MVVM&lt;BareKnuckleStyle&gt; - async ICommand extensions
     </description>
     <releaseNotes>
-      3.0.2 - updated all package references to signed Blue.MVVM.Commands assembly
+      3.0.3 - updated all package references to signed Blue.MVVM.Commands assembly
       3.0.2 - updated all package references to Blue.MVVM.Commands to target 3.0.0 assembly
       3.0.0 - added support for netstandard1.0, version alignment
       0.4.0 - added async aware eventhandlers for executing and exectuted
