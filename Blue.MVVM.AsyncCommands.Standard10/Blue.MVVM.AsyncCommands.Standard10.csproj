@@ -23,7 +23,7 @@
   <Import Project="..\Blue.MVVM.AsyncCommands_\Blue.MVVM.AsyncCommands_.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="Blue.MVVM.Commands" Version="3.0.0" />
+    <PackageReference Include="Blue.MVVM.Commands" Version="3.0.1" />
   </ItemGroup>
 
 </Project>

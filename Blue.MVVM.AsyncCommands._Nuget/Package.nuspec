@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.AsyncCommands</id>
-    <version>3.0.0</version>
+    <version>3.0.3</version>
     <title>Blue.MVVM.AsyncCommands</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -10,6 +10,8 @@
       MVVM&lt;BareKnuckleStyle&gt; - async ICommand extensions
     </description>
     <releaseNotes>
+      3.0.2 - updated all package references to signed Blue.MVVM.Commands assembly
+      3.0.2 - updated all package references to Blue.MVVM.Commands to target 3.0.0 assembly
       3.0.0 - added support for netstandard1.0, version alignment
       0.4.0 - added async aware eventhandlers for executing and exectuted
       0.3.0 - IAsyncNotificationCommand´s are now public
@@ -29,27 +31,27 @@
     <tags>Blue MVVM Command RelayCommand ICommand async IAsyncCommand</tags>
 
     <dependencies>
-      <dependency id="Blue.MVVM.Commands"    version="3.0.0" />
+      <dependency id="Blue.MVVM.Commands"    version="3.0.1" />
     </dependencies>
     
   </metadata>
   <files>
     <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
-          target="lib/portable-net45+netcore45+wpa81+MonoAndroid1+xamarinios10+MonoTouch1" />
+          target="lib\portable-net45+netcore45+wpa81+MonoAndroid1+xamarinios10+MonoTouch1" />
 
     <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
-          target="lib/MonoAndroid403" />
+          target="lib\MonoAndroid403" />
 
     <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
-          target="lib/net45" />
+          target="lib\net45" />
 
     <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
-          target="lib/net46" />
+          target="lib\net46" />
 
     <file src="bin\lib\portable40\Blue.MVVM.AsyncCommands.*"
-          target="lib/portable-net40+sl5" />
+          target="lib\portable-net40+sl5" />
 
     <file src="bin\lib\netstandard10\Blue.MVVM.AsyncCommands.*"
-          target="lib/netstandard1.0" />
+          target="lib\netstandard1.0" />
   </files>
 </package>

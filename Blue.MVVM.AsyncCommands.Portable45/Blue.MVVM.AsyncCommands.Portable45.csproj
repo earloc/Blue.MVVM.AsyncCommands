@@ -51,9 +51,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Blue.MVVM.Commands, Version=2.0.1.0, Culture=neutral, PublicKeyToken=1bb1db17d606db59, processorArchitecture=MSIL">
-      <HintPath>..\packages\Blue.MVVM.Commands.2.1.0-pre3\lib\portable-net45+netcore45+wpa81+MonoAndroid1+xamarinios10+MonoTouch1\Blue.MVVM.Commands.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Blue.MVVM.Commands, Version=3.0.0.0, Culture=neutral, PublicKeyToken=1bb1db17d606db59, processorArchitecture=MSIL">
+      <HintPath>..\packages\Blue.MVVM.Commands.3.0.1\lib\netstandard1.0\Blue.MVVM.Commands.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="..\Blue.MVVM.AsyncCommands_\Blue.MVVM.AsyncCommands_.projitems" Label="Shared" />
