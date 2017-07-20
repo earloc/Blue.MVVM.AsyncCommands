@@ -8,6 +8,8 @@
     <Product>Blue.MVVM</Product>
     <Authors>earloc@live.de</Authors>
     <Copyright>Copyright © nobody in particular 2014 - 2017</Copyright>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\working\git\eSc\Blue.MVVM.AsyncCommands\Blue.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -21,6 +23,10 @@
   </PropertyGroup>
 
   <Import Project="..\Blue.MVVM.AsyncCommands_\Blue.MVVM.AsyncCommands_.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <None Include="..\Blue.snk" Link="Blue.snk" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Blue.MVVM.Commands" Version="3.0.1" />

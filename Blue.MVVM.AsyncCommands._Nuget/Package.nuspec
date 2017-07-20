@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.AsyncCommands</id>
-    <version>3.0.3</version>
+    <version>3.0.4</version>
     <title>Blue.MVVM.AsyncCommands</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -10,6 +10,8 @@
       MVVM&lt;BareKnuckleStyle&gt; - async ICommand extensions
     </description>
     <releaseNotes>
+      3.0.4 - fixed unsigned netstandard1.0 assembly
+      - added xamarinios10, MonoTouch1 explicit target frameworks
       3.0.3 - updated all package references to signed Blue.MVVM.Commands assembly
       3.0.2 - updated all package references to Blue.MVVM.Commands to target 3.0.0 assembly
       3.0.0 - added support for netstandard1.0, version alignment
@@ -41,6 +43,12 @@
 
     <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
           target="lib\MonoAndroid403" />
+    
+    <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
+          target="lib\xamarinios10" />
+    
+    <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
+          target="lib\MonoTouch1" />
 
     <file src="bin\lib\portable45\Blue.MVVM.AsyncCommands.*"
           target="lib\net45" />
